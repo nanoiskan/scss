@@ -1,0 +1,20 @@
+.navigation-list ul {
+  display: flex;
+}
+.navigation-list li {
+  margin-right: 42px;
+}
+.navigation-list li:last-child {
+  margin-right: 0;
+}
+.navigation-list a {
+  color: #323232;
+  text-decoration: none;
+}
+.navigation-list a.active {
+  color: #F78434;
+}
+.navigation-list a:hover {
+  color: #F78434;
+  font-weight: 700;
+}/*# sourceMappingURL=navigation_list.css.map */
