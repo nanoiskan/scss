@@ -1,12 +1,13 @@
-.header_row{
+.header_row {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.header_text{
+.header_text {
     width: 465px;
-    p{
+
+    p {
         font-weight: 400;
         font-size: 16px;
         line-height: 27px;
@@ -14,12 +15,20 @@
     }
 }
 
-.header_title{
+.header_title {
     position: relative;
     z-index: 3;
     margin-right: -150px;
     margin-bottom: 25px;
-    font-size: 54px;    
+    font-size: 54px;
     line-height: 79px;
     font-weight: 700;
+}
+
+.header_img img {
+    border-radius: 40px 40px 40px 0;
+}
+
+.header_form {
+    margin-top: 42px;
 }
