@@ -1,7 +1,14 @@
-.objects {}
+.objects {
+    padding-top: 45px;
+    padding-bottom: 80px;
+}
 
 .objects_img {}
 
-.objects_row {}
+.objects_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .objects_text {}

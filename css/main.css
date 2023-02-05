@@ -9,27 +9,37 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   font-size: inherit;
 }
 
-button {
+button,
+input[type=submit] {
   cursor: pointer;
   background: none;
 }
 
-input, button {
+input,
+button {
   border: none;
   font-family: inherit;
   font-size: inherit;
 }
 
-button, input[type=submit] {
+button,
+input[type=submit] {
   background: none;
   cursor: pointer;
 }
 
-ul, li {
+ul,
+li {
   list-style: none;
 }
 
@@ -174,10 +184,21 @@ html, body {
 
 .clients {
   padding-top: 100px;
-  padding-bottom: 90px;
+  padding-bottom: 45px;
 }
 
 .clients_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.objects {
+  padding-top: 45px;
+  padding-bottom: 80px;
+}
+
+.objects_row {
   display: flex;
   justify-content: space-between;
   align-items: center;
